@@ -1,5 +1,7 @@
+-- Update Recipes
+-----------------------------------------------
 local RitnProtoRecipe = require(ritnlib.defines.class.prototype.recipe)
-----------------------------------------------------------------------------
+-----------------------------------------------
 
 -- steel-gear-wheel
 local recipe_name = "hsmd-steel-gear-wheel"
