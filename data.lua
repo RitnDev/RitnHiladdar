@@ -20,6 +20,7 @@ if not ritnmods.hiladdar then ritnmods.hiladdar = {
 -- active options
 if mods["Hiladdar_Belts"] then ritnmods.hiladdar.belt = true end
 if mods["Hiladdar_Mining"] then ritnmods.hiladdar.mining = true end
+if mods["Hiladdar_Manufacturing"] then ritnmods.hiladdar.manufacturing = true end
 if mods["more-miniloaders"] then ritnmods.hiladdar.miniloader = true end
 
 --Require
@@ -31,6 +32,11 @@ end
 if ritnmods.hiladdar.mining then 
     require("prototypes.mining.update-technology")
     require("prototypes.mining.update-recipes")
+end
+
+if ritnmods.hiladdar.manufacturing then 
+    require("prototypes.manufacturing.update-technology")
+    require("prototypes.manufacturing.update-recipes")
 end
 
 if ritnmods.hiladdar.miniloader then 
