@@ -1,6 +1,6 @@
 {
   "name": "RitnHiladdar",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "title": "RitnHiladdar",
   "author": "Ritn",
   "description": "Makes Hilladdar's modpack compatible at RitnMods.\n\nRend compatible le modpack Hilladdar's au RitnMods.",
@@ -9,17 +9,17 @@
 		"base >= 1.1",
     "RitnLib >= 0.7",
     "RitnResearch >= 0.8.8",
-    "Hiladdar_Belts >= 1.1",
-    "Hiladdar_Mining >= 1.1",
-    "Hiladdar_Manufacturing >= 1.1",
-    "? more-miniloaders >= 1.0",
-    "! Hiladdar_Electrical",
+    "? Hiladdar_Belts >= 1.1",
+    "? Hiladdar_Mining >= 1.1",
+    "? Hiladdar_Manufacturing >= 1.1",
+    "? Hiladdar_Robots",
+    "? Hiladdar_Electrical",
     "! Hiladdar_Fuels",
-    "! Hiladdar_Gear",
-    "! Hiladdar_Research",
-    "! Hiladdar_Robots",
+    "? Hiladdar_Research",
     "! Hiladdar_Scrubbers",
     "! Hiladdar_Trains",
+    "! Hiladdar_Gear",
+    "? more-miniloaders >= 1.0",
     "! Hiladdar_Core"
 	]
 }
