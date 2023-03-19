@@ -21,9 +21,9 @@ if not ritnmods.hiladdar then ritnmods.hiladdar = {
 if mods["Hiladdar_Belts"] then ritnmods.hiladdar.belt = true end
 if mods["Hiladdar_Mining"] then ritnmods.hiladdar.mining = true end
 if mods["Hiladdar_Manufacturing"] then ritnmods.hiladdar.manufacturing = true end
-if mods["Hiladdar_Gear"] then ritnmods.hiladdar.gear = true end
+--if mods["Hiladdar_Gear"] then ritnmods.hiladdar.gear = true end
 if mods["Hiladdar_Electrical"] then ritnmods.hiladdar.electrical = true end
-if mods["Hiladdar_Fuels"] then ritnmods.hiladdar.fuel = true end
+--if mods["Hiladdar_Fuels"] then ritnmods.hiladdar.fuel = true end
 if mods["Hiladdar_Robots"] then ritnmods.hiladdar.robot = true end
 if mods["Hiladdar_Trains"] then ritnmods.hiladdar.train = true end
 if mods["Hiladdar_Scrubbers"] then ritnmods.hiladdar.scrubber = true end
@@ -59,6 +59,11 @@ end
 if ritnmods.hiladdar.electrical then 
     require("prototypes.electrical.update-technology")
     require("prototypes.electrical.update-recipes")
+end
+
+if ritnmods.hiladdar.train then 
+    require("prototypes.trains.update-technology")
+    require("prototypes.trains.update-recipes")
 end
 
 if ritnmods.hiladdar.miniloader then 
